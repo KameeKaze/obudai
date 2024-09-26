@@ -20,11 +20,9 @@ class Program
             szavak.Add(szo);
         }
 
-        // Kérjünk be egy új szót a felhasználótól
         Console.WriteLine("szo");
         string keresettSzo = Console.ReadLine();
 
-        // Benne van-e a gyűjteményben?
         int index = szavak.IndexOf(keresettSzo);
         if (index >= 0)
         {
