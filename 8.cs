@@ -13,8 +13,6 @@ class Program
         lista.Add(N);
         int K = N;
 
-        Console.WriteLine("\ndebug");
-
         while (K != 1)
         {
             if (K % 2 == 0)
